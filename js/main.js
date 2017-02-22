@@ -4,7 +4,7 @@
     /*========================
      1.Parallax banner id div
      =========================*/
-    $('#lp-pom-block-10').parallax("50%", 0.3);
+    $('#lp-pom-block-10').parallax("left 50%", 0.3);
 
     // Scroll to DIV
     $("#arrow").on("click", function() {
