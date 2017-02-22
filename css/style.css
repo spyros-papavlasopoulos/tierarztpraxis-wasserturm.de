@@ -215,7 +215,7 @@ a.green-button {
 	  3.About
 	 =========================== */
 
-#about-container {
+.about-container {
     padding: 0px;
     background-color: #fff;
 }
