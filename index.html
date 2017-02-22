@@ -1,10 +1,440 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/gif" href="images/favicon.gif">
+    <title>Tierarztpraxis Fengler & Brinkmeier</title>
+    <!--============= Bootstrap core CSS ================-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!--==============Awesome CSS=================-->
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!--===========================main css for  web host page===============================-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!--=================================GOOGLE FONT - OPEN SANS==============================-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800' rel='stylesheet' type='text/css'>
+    <!--=============================jquery.js==============================-->
+    <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
+  <!--todo: make the navigation jump to the right sections -->
+  <!--todo: set the favicon as to the same as on the old page DONE-->
+  <!--todo: create a "team" section as on the old page, maybe were the "brochure section" is right now-->
+  <!--todo: create a "praxis" section as on the old page, maybe were the "health video section" is right now, add the two pictures from the old page from the praxis tab-->
 
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Navigation</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#leistungen">Leistungen</a></li>
+                <li><a href="#sprechzeiten">Sprechzeiten</a></li>
+                <li><a href="#about">Das Team</a></li>
+                <li><a href="#unserepraxis">Unsere Praxi</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#impressum">Impressum</a></li>
+
+
+
+                <!--
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!--
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../navbar/">Default</a></li>
+                <li><a href="../navbar-static-top/">Static top</a></li>
+                <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<!--=============================Banner=============================-->
+<!--todo: fix the space between the both text lines-->
+<header id="lp-pom-block-10">
+    <div class="container">
+        <div class="row main-head">
+           <p class="logo"><img src="images/tierarztliche-gemeinschaftspraxis-Berlin.gif" alt=""/></p>
+            <h1>Tierärztliche Gemeinschaftspraxis<br><br>für kleine Haus- und Heimtiere</h1>
+            <hr>
+            <p class="text">Dr. Regina Fengler & Dr. Barbara Brinkmeier</p>
+            <!-- <p class="banner-btn"><a class="green-button" href="#" role="button">MORE DETAILS</a> </p> -->
+            <p class="text-center" id="arrow"><a href="#need"><img src="images/down-arrow.png" alt=""/></a></p>
+        </div>
+    </div>
+</header>
+<!--=============================Need =============================-->
+<section id="need" class="program-container">
+    <div class="container program-head">
+        <div class="row">
+            <h2>Alles was sie wissen müssen</h2>
+            <hr>
+        </div>
+        <div class="row plan">
+            <div class="col-xs-12 col-sm-4">
+                <div class="service-img"> <img src="images/service-img.jpg" alt=""> </div>
+                <h4>Providing expert care</h4>
+                <p class="space-text">Prescientific forms of medicine are now known as traditional medicine and folk medicine are thus called alternative medicine.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <div class="service-img"> <img src="images/service-img1.jpg" alt=""> </div>
+                <h4>Medicaid 24/7</h4>
+                <p class="space-text">They remain commonly used with or instead of scientific medicine and are thus called alternative medicine are now known as traditional.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <div class="service-img"> <img src="images/service-img2.jpg" alt=""> </div>
+                <h4>Friendly atmosphere</h4>
+                <p class="space-text">Contemporary medicine is in general conducted within health care systems frameworks are established by individual governments.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=============================About=============================-->
+<section id="about-container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 about-cont-area-l">
+                <div class="about">
+                    <h2>Sehr geehrte Patientenbesitzer</h2>
+                    <p>wir begrüßen Sie herzlich auf unserer Internetpräsenz.</p>
+                    <p>Wir möchten Ihnen auf dieser Homepage unsere Praxis und unser Leistungsangebot vorstellen.</p>
+                    <p>Die Tierarztpraxis am Wasserturm besteht seit den 1970er Jahren im Prenzlauer Berg und seit dem Jahre 2003 in der nun aktuellen Gemeinschaftsbesetzung der Dr. Regina Fengler und Dr. Barbara Brinkmeier.</p>
+                    <p>Diese Seiten bieten Ihnen die Gelegenheit, sich umfassend über unsere diagnostischen und therapeutischen Möglichkeiten zu informieren. Ebenso können Sie unser Team und unsere Praxisräumlichkeiten kennenlernen.</p>
+                    <p>Um Ihnen für Ihr Tier die bestmögliche Behandlung zu gewährleisten, bieten wir Ihnen eine moderne technische Ausstattung, langjährige Erfahrung und ständige Weiterbildung.</p>
+                    <p>Ihr Praxisteam</p>
+
+                </div>
+                <!--
+               <div class="about-list">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur </li>
+                        <li>Mauris laoreet, lectus tempus</li>
+                        <li>Consectetur adipiscing elit</li>
+                    </ul>
+                </div>
+              -->
+            </div>
+            <div class="col-sm-12 col-md-6 about-img"> <img src="images/andresr17722.jpg" alt=""> </div>
+        </div>
+    </div>
+</section>
+<!--=============================Features=============================-->
+<section class="features-container">
+    <div class="container features-head">
+        <div class="row">
+            <h2>Our Awesome Features</h2>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <div class="features"> <span class="featuresIcon1"></span>
+                    <div class="features-box">
+                        <h3>Qualifiziertes Personal</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet, lectus tempus placerat mollis, orci augue vitae. </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="features"> <span class="featuresIcon2"></span>
+                    <div class="features-box">
+                        <h3>Höchste Standarts</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet, lectus tempus placerat mollis, orci augue vitae. </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="features"> <span class="featuresIcon3"></span>
+                    <div class="features-box">
+                        <h3>Step by step procedure</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet, lectus tempus placerat mollis, orci augue vitae. </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="features"> <span class="featuresIcon4"></span>
+                    <div class="features-box">
+                        <h3>Professionelle Technologien</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet, lectus tempus placerat mollis, orci augue vitae. </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="features"> <span class="featuresIcon5"></span>
+                    <div class="features-box">
+                        <h3>Moderne Sprechzimmer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet, lectus tempus placerat mollis, orci augue vitae. </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="features"> <span class="featuresIcon6"></span>
+                    <div class="features-box">
+                        <h3>Freundliche Beratung</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet, lectus tempus placerat mollis, orci augue vitae. </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=============================Video=============================-->
+<!--todo: remove this completely DONE -->
+<!--<section class="video-container">-->
+    <!--<div class="container program-head">-->
+        <!--<div class="row">-->
+            <!--<h2>Our Health Campaign Video </h2>-->
+            <!--<hr>-->
+            <!--<div class="col-md-10 col-md-offset-1">-->
+                <!--<p>Because their patients are often seriously ill or require complex investigations, internists do much of their work in hospitals. Formerly, many internists were not subspecialized; such general physicians would see any complex nonsurgical problem; this style of practice has become much less common.In modern urban practice, most internists are subspecialists. </p>-->
+                <!--<div class="video-main">-->
+                    <!--&lt;!&ndash;<iframe src="https://player.vimeo.com/video/57832329?color=dbdbd9&title=0&byline=0&portrait=0"  class="video-iframe"></iframe>&ndash;&gt;-->
+                    <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/H_KMZYofi18" frameborder="0" allowfullscreen class="video-iframe"></iframe>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->
+<!--=============================Download =============================-->
+<!--todo: remove this completely DONE-->
+<!--<section class="download-container">-->
+    <!--<div class="container ">-->
+        <!--<div class="row download-head">-->
+            <!--<h2>Download Our Brochure</h2>-->
+            <!--<hr>-->
+            <!--<div class="col-md-10 col-md-offset-1">-->
+                <!--<p>Training in internal medicine , varies considerably across the world: see the articles on Medical education and Physician for more details. In North America, it requires at least three years of residency training after medical school, which can then be followed by a one- to three-year fellowship in the subspecialties listed above. </p>-->
+                <!--<div class="btn-container">-->
+                    <!--<button type="submit" class="download-btn  ">Download Now</button>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->
+<!--=============================Services=============================-->
+<section class="tech-container">
+    <div class="container ">
+        <div class="row tech-head">
+            <h2>Leistungen</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="tech-img"> <img src="images/tech-img.jpg" alt=""> </div>
+                <div class="tech"> <span class="techIcon"></span>
+                    <h3>Folgende Leistungen bieten wir in unserer Praxis für Ihr Tier an:</h3>
+                    <ul>
+                        <li class="Stil8">Gesundheitscheck, Impfungen, Altersvorsorge</li>
+                        <li class="Stil8">Mikrochipimplantation und -registrierung, Heimtierpass, Reisekrankheitenberatung</li>
+                        <li class="Stil8">Röntgen</li>
+                        <li class="Stil8">Laboruntersuchungen, EKG, Blutdruckmessung</li>
+                        <li class="Stil8">Ultraschalluntersuchung</li>
+                        <li class="Stil8">Ernährungsberatung</li>
+                        <li class="Stil8">Allergietests</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="tech-img"> <img src="images/tech-img1.jpg" alt=""> </div>
+                <div class="tech"> <span class="techIcon"></span>
+                    <h3>Operationen</h3>
+                    <ul>
+                        <li class="Stil8">Narkose mit Kurzzeit- oder Inhalationsnarkose</li>
+                        <li class="Stil8">Kastration von Hund, Katze und Heimtier</li>
+                        <li class="Stil8">Weichteilchirurgie</li>
+                        <li class="Stil8">Elektrochirurgie</li>
+                        <li class="Stil8">Zahnbehandlung - manuell und mit Ultraschall</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12 ">
+                <br>
+                <br>
+            </div>
+            <div class="col-md-12 ">
+                <p>Bitte beachten Sie, dass ab dem 01. Januar 2010 alle Hunde gem. "Berliner Hundegesetz" einen implantierten Mikrochip tragen müssen.</p>
+                <p>Desweiteren arbeiten wir mit Spezialisten für Augenheilkunde, Kardiologie und Orthopädie zusammen.<br>
+                    Unsere Leistungen werden nach der Gebührenordnung für Tierärzte (GOT) abgerechnet (Bar- oder EC-Kartenzahlung).</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=============================Client Reviews=============================-->
+<!--todo: remove this completely DONE -->
+<!--<section class="client-container">-->
+    <!--<div class="container client-head">-->
+        <!--<div class="row">-->
+            <!--<h2>Our Client Reviews</h2>-->
+            <!--<hr>-->
+        <!--</div>-->
+        <!--<div class="testimonial ">-->
+            <!--<ul class="row">-->
+                <!--<li class="col-sm-6 col-md-6">-->
+                    <!--<blockquote class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequuntur unde quae totam recusandae consectetur adipisicing elit Lorem ipsum dolor sit amet<span class="arrowbubble"></span></blockquote>-->
+                    <!--<div class="testiimg"><img width="100" height="100" src="images/client-image.png" alt="testimonial1"></div>-->
+                    <!--<div class="testiinfo">-->
+                        <!--<h4 class="testititle">Catherine Grace</h4>-->
+                        <!--<span>CEO Digitalcraft</span> </div>-->
+                    <!--<div class="clearfix"></div>-->
+                <!--</li>-->
+                <!--<li class="col-sm-6 col-md-6">-->
+                    <!--<blockquote class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequuntur unde quae totam recusandae.consectetur adipisicing elit Lorem ipsum dolor sit amet<span class="arrowbubble"></span></blockquote>-->
+                    <!--<div class="testiimg"><img width="100" height="100" src="images/client-image.png" alt="testimonial2"></div>-->
+                    <!--<div class="testiinfo">-->
+                        <!--<h4>Jane Doe</h4>-->
+                        <!--<span> Themotiko Developer </span></div>-->
+                    <!--<div class="clearfix"></div>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->
+<!--=============================Contact main=============================-->
+<!--todo: fix the weird space between the listing dots and the words DONE -->
+<section class="contact-main">
+    <div class="container">
+        <div class="row">
+            <h2>Impressum</h2>
+            <hr>
+            <div class="col-sm-12 col-md-4 ">
+                <h3>Sprechzeiten</h3>
+                <table class="table table-condensed">
+                    <tbody>
+                    <tr>
+                        <td>Montag</td>
+                        <td>9:00-13:00 und 15:00-19:00 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>Dienstag</td>
+                        <td>9:00-13:00 und 15:00-19:00 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>Mittwoch</td>
+                        <td>9:00-13:00 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>Donnerstag</td>
+                        <td>9:00-13:00 und 15:00-19:00 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>Freitag</td>
+                        <td>9:00-13:00 und 15:00-18:00 Uhr</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p>Außerhalb der Sprechzeiten und Hausbesuche nach Vereinbarung.
+                    Bitte beachten Sie bei Notfällen außerhalb der Sprechzeiten die telefonische Bandansage!</p>
+            </div>
+            <div class="col-sm-12 col-md-4 ">
+                <h3>Tierarztpraxis am Wasserturm</h3>
+                <strong>Dr. Regina Fengler<br>Dr. Barbara Brinkmeier</strong>
+                <ul class="contact_address">
+                    <li>
+                        <div class="cotact_icon"> <i class="fa fa-map-marker fa-lg"></i></div>
+                        <div class="cotact_text">
+                            <h3>Addresse</h3>
+                            Rykestraße 4
+                            10405 Berlin-Prenzlauer Berg</div>
+                    </li>
+                    <li>
+                        <div class="cotact_icon"><i class="fa fa-phone fa-lg"></i></div>
+                        <div class="cotact_text">
+                            <h3>Telefon & Fax</h3>
+                            Tel: 030 - 442 03 29<br>
+                            Fax: 030 - 400 38 38 4</div>
+                    </li>
+                    <li>
+                        <div class="cotact_icon"><i class="fa fa-envelope fa-lg"></i></div>
+                        <div class="cotact_text">
+                            <h3>Email</h3>
+                            <script src="js/brief.js" type="text/javascript"></script>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+           <div class="col-sm-12 col-md-4 ">
+                <h3>Berufsrechtliche Angaben</h3>
+                <ul class="angaben">
+                    <li class="Stil8">zuständige Aufsichtsbehörde: Tierärztekammer Berlin (www.tieraerztekammer-berlin.de)</li>
+                    <li class="Stil8">Berufsbezeichnung "Tierarzt" - verliehen in der Bundesrepublik Deutschland</li>
+                </ul>
+                <p>Die zuständige Berufsordnung ist die Berufsordnung der Tierärztekammer Berlin in der Fassung vom 15. März 2010, einzusehen hier: Berufsordnung der Tierärztekammer Berlin</p>
+                <p>Umsatzsteueridentifikationsnummer: DE 31/285/67761 </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=============================Contact =============================-->
+<!--todo: Center this section DONE -->
+<section class="contact-container" >
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 contact-head text-center">
+                <h2>Folgen sie uns</h2>
+                <p><a href="https://www.facebook.com/Tierarztpraxis-am-Wasserturm-in-Prenzlauer-Berg-134238763262651" target="_blank"><i class="fa fa-facebook fa-lg"></i>&nbsp;&nbsp;&nbsp;facebook.com/Tierarztpraxis-am-Wasserturm-in-Prenzlauer-Berg-134238763262651</a></p>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=============================footer-bottom =============================-->
+<!--todo: add the Impressum lower part starting with "Konzept und Umgestaltung"-->
+
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <p> © 2016 </p>
+        </div>
+    </div>
+</div>
+<!--=============================Goto top =============================-->
+<div id="pagewrap">
+    <p id="back-top"> <a href="#top"><span></span></a> </p>
+</div>
+<!--============================Bootstrap==========================-->
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<!--============================parallax.js===========================-->
+<script src="js/parallax.js" type="text/javascript"></script>
+<!--============================Sticky.js===========================-->
+<script src="js/jquery.sticky.js" type="text/javascript"></script>
+<!--=========================Scroll.js=========================-->
+<!--<script src="js/scroll.js" type="text/javascript"></script>-->
+<!--============== Form validation JS=================-->
+<script src="js/contact_form.js" type="text/javascript"></script>
+<!--============================Main.js===========================-->
+<script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
