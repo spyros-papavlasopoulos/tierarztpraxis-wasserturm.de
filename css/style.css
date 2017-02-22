@@ -238,12 +238,10 @@ a.green-button {
 {
     padding:90px 120px 90px 90px;
 }
-.about-img {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
+
 .about-img img {
     width: 100%;
+    height: auto;
 }
 
 .about p {
