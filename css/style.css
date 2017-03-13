@@ -970,27 +970,6 @@ ul.contact_address {
     -webkit-border-radius: 4px;
 
 }
-/*.follow-us li {*/
-    /*padding: 0px;*/
-    /*margin: 0px;*/
-    /*line-height: 30px;*/
-    /*width: 100%;*/
-    /*float: left;*/
-    /*list-style: none;*/
-/*}*/
-/*ul.follow-us {*/
-
-    /*padding: 0px;*/
-    /*line-height: 24px;*/
-    /*font-family: Arial, Helvetica, sans-serif;*/
-    /*font-weight: normal;*/
-    /*color:#fff;*/
-    /*font-size: 14px;*/
-/*}*/
-/*.follow-us p {*/
-    /*line-height: 24px;*/
-    /*margin-bottom: 10px;*/
-/*}*/
 .follow_icon
 {
     width:24px;
@@ -1033,14 +1012,29 @@ ul.contact_address {
 
 }
 
-.angaben { padding-left: 1em }
+.angaben {
+    padding-left: 1em;
+    text-align: left;
+    color: #666;
+}
+
+.angaben-title { margin-bottom: .5em !important }
+
+/* ============================
+    impressum
+    =========================== */
+@media (max-width: 991px) {
+    #impressum .region {
+        margin-bottom: 3em;
+        overflow: hidden;
+    }
+}
+
+
 
 /* ============================
 	10.footer-bottom
 	=========================== */
-
-
-
 .footer-bottom {
     padding: 35px 0px 35px 0px;
     background-color: #000;
@@ -1067,6 +1061,12 @@ ul.contact_address {
 .footer-bottom .text-center { text-align: center !important }
 
 .footer-bottom .text-center strong { display: inline-block }
+
+.gmaps {
+    width: 100%;
+    height: 310px;
+    border: none;
+}
 
 /* ============================
 	 11.Goto top
